@@ -25,10 +25,10 @@ public class ApplicationConfig {
     public DataSource dataSource() {
         DriverManagerDataSource dataSource = new DriverManagerDataSource();
         dataSource.setDriverClassName("com.mysql.jdbc.Driver");
-        // 只需要修改红色部分, 保留其他内容
-        dataSource.setUrl("jdbc:mysql://laiproject-instance.cr79vjsw2pii.us-east-2.rds.amazonaws.com:3306/ecommerce?createDatabaseIfNotExist=true&serverTimezone=UTC");
+
+        dataSource.setUrl("sample url");
         dataSource.setUsername("admin");
-        dataSource.setPassword("xiangmuBAN");
+        dataSource.setPassword("password");
 
         return dataSource;
     }
