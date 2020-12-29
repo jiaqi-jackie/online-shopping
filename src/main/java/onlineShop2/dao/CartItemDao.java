@@ -1,7 +1,7 @@
 package onlineShop2.dao;
 
-import onlineShop.entity.Cart;
-import onlineShop.entity.CartItem;
+import onlineShop2.entity.Cart;
+import onlineShop2.entity.CartItem;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;

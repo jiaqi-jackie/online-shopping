@@ -1,9 +1,9 @@
 package onlineShop2.controller;
 
-import onlineShop.entity.Cart;
-import onlineShop.entity.Customer;
-import onlineShop.service.CartService;
-import onlineShop.service.CustomerService;
+import onlineShop2.entity.Cart;
+import onlineShop2.entity.Customer;
+import onlineShop2.service.CartService;
+import onlineShop2.service.CustomerService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;

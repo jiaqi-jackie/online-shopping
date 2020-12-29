@@ -1,6 +1,6 @@
 package onlineShop2.dao;
 
-import onlineShop.entity.Product;
+import onlineShop2.entity.Product;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
