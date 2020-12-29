@@ -19,7 +19,7 @@ public class BillingAddress implements Serializable {
     private String country;
 
     @OneToOne(mappedBy = "billingAddress")
-    private onlineShop.entity.Customer customer;
+    private onlineShop2.entity.Customer customer;
 
     public int getId() {
         return id;
@@ -69,11 +69,11 @@ public class BillingAddress implements Serializable {
         this.country = country;
     }
 
-    public onlineShop.entity.Customer getCustomer() {
+    public onlineShop2.entity.Customer getCustomer() {
         return customer;
     }
 
-    public void setCustomer(onlineShop.entity.Customer customer) {
+    public void setCustomer(onlineShop2.entity.Customer customer) {
         this.customer = customer;
     }
 }

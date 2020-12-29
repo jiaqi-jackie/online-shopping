@@ -24,7 +24,7 @@ public class CartItem implements Serializable {
 
     @ManyToOne
     @JsonIgnore
-    private onlineShop.entity.Cart cart;
+    private onlineShop2.entity.Cart cart;
 
     public int getId() {
         return id;
@@ -58,11 +58,11 @@ public class CartItem implements Serializable {
         this.product = product;
     }
 
-    public onlineShop.entity.Cart getCart() {
+    public onlineShop2.entity.Cart getCart() {
         return cart;
     }
 
-    public void setCart(onlineShop.entity.Cart cart) {
+    public void setCart(onlineShop2.entity.Cart cart) {
         this.cart = cart;
     }
 }

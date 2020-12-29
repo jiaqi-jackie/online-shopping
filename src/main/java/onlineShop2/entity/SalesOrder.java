@@ -20,7 +20,7 @@ public class SalesOrder implements Serializable {
     private Customer customer;
 
     @ManyToOne
-    private onlineShop.entity.ShippingAddress shippingAddress;
+    private onlineShop2.entity.ShippingAddress shippingAddress;
 
     @ManyToOne
     private BillingAddress billingAddress;
@@ -49,11 +49,11 @@ public class SalesOrder implements Serializable {
         this.customer = customer;
     }
 
-    public onlineShop.entity.ShippingAddress getShippingAddress() {
+    public onlineShop2.entity.ShippingAddress getShippingAddress() {
         return shippingAddress;
     }
 
-    public void setShippingAddress(onlineShop.entity.ShippingAddress shippingAddress) {
+    public void setShippingAddress(onlineShop2.entity.ShippingAddress shippingAddress) {
         this.shippingAddress = shippingAddress;
     }
 

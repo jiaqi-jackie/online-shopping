@@ -1,7 +1,7 @@
 package onlineShop2.controller;
 
-import onlineShop.entity.Product;
-import onlineShop.service.ProductService;
+import onlineShop2.entity.Product;
+import onlineShop2.service.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.validation.BindingResult;

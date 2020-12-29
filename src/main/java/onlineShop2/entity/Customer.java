@@ -17,7 +17,7 @@ public class Customer implements Serializable {
     private String customerPhone;
 
     @OneToOne(cascade = CascadeType.ALL, fetch = FetchType.EAGER)
-    private onlineShop.entity.ShippingAddress shippingAddress;
+    private onlineShop2.entity.ShippingAddress shippingAddress;
 
     @OneToOne(cascade = CascadeType.ALL, fetch = FetchType.EAGER)
     private BillingAddress billingAddress;
@@ -26,7 +26,7 @@ public class Customer implements Serializable {
     private User user;
 
     @OneToOne(cascade = CascadeType.ALL, fetch = FetchType.EAGER)
-    private onlineShop.entity.Cart cart;
+    private onlineShop2.entity.Cart cart;
 
     public int getId() {
         return id;
@@ -60,11 +60,11 @@ public class Customer implements Serializable {
         this.customerPhone = customerPhone;
     }
 
-    public onlineShop.entity.ShippingAddress getShippingAddress() {
+    public onlineShop2.entity.ShippingAddress getShippingAddress() {
         return shippingAddress;
     }
 
-    public void setShippingAddress(onlineShop.entity.ShippingAddress shippingAddress) {
+    public void setShippingAddress(onlineShop2.entity.ShippingAddress shippingAddress) {
         this.shippingAddress = shippingAddress;
     }
 
@@ -84,11 +84,11 @@ public class Customer implements Serializable {
         this.user = user;
     }
 
-    public onlineShop.entity.Cart getCart() {
+    public onlineShop2.entity.Cart getCart() {
         return cart;
     }
 
-    public void setCart(onlineShop.entity.Cart cart) {
+    public void setCart(onlineShop2.entity.Cart cart) {
         this.cart = cart;
     }
 }

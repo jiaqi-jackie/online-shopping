@@ -1,8 +1,8 @@
 package onlineShop2.dao;
 
-import onlineShop.entity.Authorities;
-import onlineShop.entity.Customer;
-import onlineShop.entity.User;
+import onlineShop2.entity.Authorities;
+import onlineShop2.entity.Customer;
+import onlineShop2.entity.User;
 import org.hibernate.Criteria;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;

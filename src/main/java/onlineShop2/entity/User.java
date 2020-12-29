@@ -20,7 +20,7 @@ public class User implements Serializable {
     private boolean enabled;
 
     @OneToOne(mappedBy = "user")
-    private onlineShop.entity.Customer customer;
+    private onlineShop2.entity.Customer customer;
 
     public String getEmailId() {
         return emailId;
@@ -46,11 +46,11 @@ public class User implements Serializable {
         this.enabled = enabled;
     }
 
-    public onlineShop.entity.Customer getCustomer() {
+    public onlineShop2.entity.Customer getCustomer() {
         return customer;
     }
 
-    public void setCustomer(onlineShop.entity.Customer customer) {
+    public void setCustomer(onlineShop2.entity.Customer customer) {
         this.customer = customer;
     }
 }
