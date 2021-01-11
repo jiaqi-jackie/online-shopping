@@ -1,5 +1,5 @@
 ## Shopping With Us - an online shopping platform
-
+[project demo](https://www.dropbox.com/s/yqdlz3lnpzip833/onlineRetail_compressed.mp4?dl=0)
 #### Functionality
 - User registration as vendor or customer
 - User information update (mailing and billing address)
